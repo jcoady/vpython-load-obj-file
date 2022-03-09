@@ -95,7 +95,7 @@ def obj_to_triangles(obj): # specify object
             vertices = 0
 
     if len(ret) == 1: return ret[0]               
-    else: return compound(ret)         # return compound of compounds
+    else: return ret
                                  
 
 
